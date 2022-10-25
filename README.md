@@ -31,21 +31,23 @@
 ```shell
 
 ├───submits
-│       efnet_b4_clean_cropCenter102_25+50+25+25+25_20val_32batch+.csv  -  сабмит
+│       efnet_b4.csv    -  сабмит
 ├───test_dataset_test                          
-│   │   test.csv                                                        -  пример заполнения сабмита
-│   └───test                                                            -  папка с изображениями для предсказания
+│   │   test.csv        -  пример заполнения сабмита
+│   └───test            -  папка с изображениями для предсказания
 ├───train_dataset_train
-│   │   train.csv                                                       -  базовый датафрейм с разметкой
-│   │   train_clean.csv                                                 -  очищенный датафрейм с разметкой
-│   └───train                                                           -  папка с изображениями для обучения
+│   │   train.csv       -  базовый датафрейм с разметкой
+│   │   train_clean.csv -  очищенный датафрейм с разметкой
+│   └───train           -  папка с изображениями для обучения
 └───weights 
-        efnet_b4_clean_cropCenter102_25+50+25+25+25_20val_32batch.pth   -  веса обученной модели EfficientNet B4
+        efnet_b4.pth    -  веса обученной модели EfficientNet B4
 ```
 
 <table>
 <tr>
-<td><img width="548" alt="image" src="https://user-images.githubusercontent.com/44007858/194670856-30e801e5-d961-4b21-aba9-a617867b1e09.jpg"></td>
-<td><img width="549" alt="image" src="https://user-images.githubusercontent.com/44007858/194670853-92317c39-8ed9-4e34-9428-0d74a2751cdb.jpg"></td>
+<td><img width="548" alt="image" src="https://user-images.githubusercontent.com/44007858/197881242-cab2a34b-f3fb-4762-93b2-96aa6413807c.png"></td>
+<td><img width="549" alt="image" src="https://user-images.githubusercontent.com/44007858/197881377-ec796174-3531-4f31-a647-efb7ed7cb7a8.png"></td>
 </tr>
 </table>
+
+
